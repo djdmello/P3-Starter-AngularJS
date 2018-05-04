@@ -18,8 +18,9 @@ app.controller('HomeController', ['$scope', function($scope) {
 	//
 	// FOR STEP 16, ADD THREE OF YOUR OWN FAVORITE MOVIES WITH METADATA TO THE END OF THIS LIST
 	*/
-      $scope.title="“IMDB + Daniel’s Top 8 Movies";
-      
+      $scope.title="IMDB + Daniel's Top 8 Movies";
+      $scope.owner="Daniel";
+      $scope.github="https://github.com/djdmello/P3-Starter-AngularJS";
 	$scope.movies = [
     { 
       title:	'The Shawshank Redemption', 
