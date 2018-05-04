@@ -18,6 +18,7 @@ app.controller('HomeController', ['$scope', function($scope) {
 	//
 	// FOR STEP 16, ADD THREE OF YOUR OWN FAVORITE MOVIES WITH METADATA TO THE END OF THIS LIST
 	*/
+      $scope.title="“IMDB + Daniel’s Top 8 Movies";
       
 	$scope.movies = [
     { 
